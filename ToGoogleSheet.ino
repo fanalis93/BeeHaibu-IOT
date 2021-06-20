@@ -17,12 +17,12 @@ float t;
 String sheetHumid = "";
 String sheetTemp = "";
 
-const char* ssid = "fanalis";                //replace with our wifi ssid
-const char* password = "freak5858";         //replace with your wifi password
+const char* ssid = "YOUR WIFI SSID";                //replace with our wifi ssid
+const char* password = "YOUR WIFI PASSWORD";         //replace with your wifi password
 
 const char* host = "script.google.com";
 //const char *GScriptId = "AKfycbybuKQelS6UoM4z0HRsVIBbEjdZIS5Woe8o-HTlJPmYXVOmS-_soQMR2HLT3amEJF40"; // Replace with your own google script id
-const char *GScriptId = "AKfycbynEPJ2xO99XvD2qoLE0lyzoI4WBiWIHp4wE-cwKtiLxt7yofEIHtdyYWpzFDPBIsSg";
+const char *GScriptId = "SCRIPT ID";
 const int httpsPort = 443; //the https port is same
 
 // echo | openssl s_client -connect script.google.com:443 |& openssl x509 -fingerprint -noout
