@@ -31,20 +31,20 @@
 // Script examples
 // https://developers.google.com/adwords/scripts/docs/examples/spreadsheetapp
 
-var SS = SpreadsheetApp.openById('1MqT--OKLYDpOHSOjZKXxxG5Y_qti3blfB0URa2Lm1e0');    //Enter Your Sheet ID Got From Sheet URL Link
-var sheet = SS.getSheetByName('TempSheet');      // Enter your sheet name here, In my case it is TempSheet
+var SS = SpreadsheetApp.openById('GOOGLE SHEET ID');    //Enter Your Sheet ID Got From Sheet URL Link
+var sheet = SS.getSheetByName('SHEET NAME');      // Enter your sheet name here, In my case it is TempSheet
 var str = "";
 
 function onOpen(){
   var ui = SpreadsheetApp.getUi();
-  ui.createMenu('ESP8266_Temp_Logger')
+  ui.createMenu('SHEET NAME')
   .addItem('Clear', 'Clear')
   .addToUi();
 }
 
 function Clear(){
   sheet.deleteRows(4, sheet.getLastRow());
-  SS.toast('Chart cleared', 'ESP8266_Temp_Logger', 5);
+  SS.toast('Chart cleared', 'SHEET NAME', 5);
 }
 
 function doPost(e) {
