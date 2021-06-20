@@ -5,8 +5,8 @@
 
 
 // Replace with your network credentials
-const char* ssid = "fanalis";
-const char* password = "freak5858";
+const char* ssid = "YOUR WIFI SSID";
+const char* password = "YOUR WIFI PASSWORD";
 
 #define DHTPIN 0 // Digital pin 2 (GPIO 4) connected to the DHT sensor
 
